@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*.swift'
   s.resource_bundles = {
-    'SnapKit_Privacy' => ['Sources/PrivacyInfo.xcprivacy'],
+    'SnapKit_Privacy' => ['Source/PrivacyInfo.xcprivacy'],
   }
 
   s.swift_version = '4.2'
